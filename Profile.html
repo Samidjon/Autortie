@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autortie</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/Profile.css">
+</head>
+<header>
+    <div class="header-options">
+        <a href="./index.html">
+            <img src="./img/logo.svg" alt="Autortie-logo" id="Logo">
+        </a>
+        <a href="#"><span>Analytics</span></a>
+        <a href="#"><span>Community</span></a>
+        <a href="#"><span>For organizations</span></a>
+    </div>
+    <div class="header-options">
+        <button id="create-referense">Create a request</button>
+        <img src="./img/Vector.svg" alt="">
+        <img src="./img/profile.svg" alt="" id="Profile">
+    </div>
+</header>
+
+<body>
+    <section id="Profile">
+        <div class="profile-container">
+            <div class="profile-header">
+                <div class="profile-avatar">
+                    <img src="./img/profile.svg" alt="Profile Avatar">
+                    <div class="orcid">
+                        <span class="id-status">ID: Orcid confirmed</span>
+                        <span class="rating">⭐ 4.4</span>
+                    </div>
+                </div>
+                <div class="profile-info">
+                    <div class="form-group">
+                        <label for="name">First Name</label>
+                        <input type="text" id="name" value="Artem">
+                    </div>
+                    <div class="form-group">
+                        <label for="status">Status</label>
+                        <input type="text" id="status" value="Scientist">
+                    </div>
+                    <div class="form-group">
+                        <label for="affiliation">Affiliation</label>
+                        <input type="text" id="affiliation" value="Saint Petersburg Mining University">
+                    </div>
+                    <div class="form-group">
+                        <label for="about">About</label>
+                        <textarea
+                            id="about">Proficient in English (C1). Experienced with ANSYS Fluent and Wolfram Mathematica.</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="links">Links</label>
+                        <input type="text" id="links" value="SCOPUS">
+                    </div>
+                </div>
+            </div>
+            <button id="save-btn">Save changes</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-info">
+            <p class="footer-text">Autortie &copy; 2021</p>
+            <nav class="footer-nav">
+                <a href="#" class="footer-link">Privacy Policy</a>
+                <a href="#" class="footer-link">Analytics</a>
+                <a href="#" class="footer-link">Community</a>
+                <a href="#" class="footer-link">For Organizations</a>
+            </nav>
+        </div>
+        <div class="footer-socials">
+            <a href="#"><img src="./img/telegram 1.svg" alt="Telegram Icon" class="social-icon"></a>
+            <a href="#"><img src="./img/instagram (1) 1.svg" alt="Instagram Icon" class="social-icon"></a>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/profile.js"></script>
+</body>
+
+</html>

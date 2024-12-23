@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./css/regstration.css">
+</head>
+
+<body>
+    <div class="registration-card">
+        <div class="logo">
+            <img src="./img/logo.svg" alt="Logo">
+        </div>
+        <div class="tabs">
+            <span class="tab">Registration</span>
+        </div>
+        <form id="registrationForm" class="registration-form">
+            <input type="email" placeholder="E-mail" id="email" required>
+            <div class="password-field">
+                <input type="password" placeholder="Password" id="password" required>
+                <span class="toggle-password">👁️</span>
+            </div>
+            <div class="password-field">
+                <input type="password" placeholder="Repeat Password" id="passwordConfirmation" required>
+                <span class="toggle-password">👁️</span>
+            </div>
+            <label class="checkbox">
+                <input type="checkbox" id="accept" required>
+                I accept the <a href="#">Terms of Service</a> and the <a href="#">Privacy Policy</a>.
+            </label>
+            <button type="submit">REGISTER</button>
+        </form>
+        <a href="#" class="back-link">Return to the main page</a>
+    </div>
+
+    <script src="./js/registration.js"></script>
+</body>
+
+</html>
