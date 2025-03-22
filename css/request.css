@@ -1,0 +1,91 @@
+.form-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.form-wrapper {
+    width: 90%;
+    max-width: 600px;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6b7c93;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #e3e8f1;
+    border-radius: 8px;
+    background: #f9fbff;
+    color: #333;
+    resize: none;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.form-textarea:focus {
+    border: 1px solid #4a90e2;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #357abd;
+    transform: translateY(-2px);
+}
+
+button:active {
+    background-color: #2a5d8f;
+    transform: translateY(0);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.5);
+}
+
